@@ -1,0 +1,4 @@
+/* Defect-correction overrides: reset is part of the navigation, and modal locks background scrolling. */
+.topbar .reset{position:static;z-index:auto;box-shadow:none;padding:7px 10px}
+body.modal-open{overflow:hidden}
+@media(max-width:500px){.topbar .reset{margin-left:auto}}

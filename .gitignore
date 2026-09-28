@@ -1,0 +1,15 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets (not used by the current static demo)
+.env
+.env.*
+!.env.example
+
+# Future local tooling
+node_modules/
+coverage/
+playwright-report/
+test-results/
+
